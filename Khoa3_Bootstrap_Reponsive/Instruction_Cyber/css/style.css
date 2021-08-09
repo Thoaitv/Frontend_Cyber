@@ -1,0 +1,129 @@
+html, body{
+    font-family: 'Work Sans', sans-serif;
+}
+header a{
+    color: white;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+header a:hover{
+    color: black;
+    text-decoration: none;
+}
+.header__top{
+    background-color: #FF727C;
+
+}
+.header__right i{
+    height: 30px;
+    width: 30px;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid black;
+}
+.header__right i:hover{
+    background-color: #FF727C;
+    border-color: white;
+}
+.header__navbar .navbar-brand p:first-of-type{
+    font-size: 25px;
+}
+.header__navbar .navbar-brand p:last-of-type{
+    font-size: 11px;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: #FF727C;
+}
+.header__navbar .navbar-brand i{
+    transform: skewX(-10deg);
+}
+#navbarMenu .nav-item{
+    margin: 0 10px;
+   
+}
+#navbarMenu .nav-item::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #FF727C;
+    display: block;
+    transition: all .5s;
+}
+#navbarMenu .nav-item:hover::after{
+    width: 100%;
+    
+}
+#navbarMenu .nav-link{
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-bottom: 2px;
+    transition: all 0.5s;
+}
+#navbarMenu .nav-link:hover{
+    color: #FF727C;
+}
+#navbarMenu .nav-item.active .nav-link{
+    color: #FF727C;
+}
+#navbarMenu .nav-item.active::after{
+    content: "";
+    width: 100%;
+    height: 2px;
+    color: #FF727C;
+    display: block;
+}
+#navbarMenu .dropdown .dropdown-menu{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#navbarMenu .dropdown .dropdown-menu:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+#navbarMenu .dropdown .dropdown-menu .dropdown-item{
+    transition: all 0.5s;
+
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+    background-color: transparent;
+    color: #FF727C;
+}
+
+/* CAROUSEL */
+#carouselCaptions .carousel-caption{
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+#carouselCaptions .carousel-caption h1{
+    font-size: 52px;
+}
+#carouselCaptions .carousel-caption p{
+    letter-spacing: 4px;
+    line-height: 1.8rem;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    font-weight: 300;
+
+}
+#carouselCaptions .carousel-caption button{
+    padding: 11px 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0;
+    letter-spacing: 2px;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+#carouselCaptions .carousel-caption button:hover{
+    background-color: #FF727C;
+    border-color: #FF727C;
+    border-radius: 0;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
