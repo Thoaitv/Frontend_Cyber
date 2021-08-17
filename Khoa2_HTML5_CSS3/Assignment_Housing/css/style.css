@@ -50,39 +50,43 @@ header h1 span {
     display: flex;
     justify-content: space-between;
     margin: 0 10px;
+    transition: all 0.5s;
+
 }
-.header__content ul li a {
+.header__content ul li{
     font-size: 1.222rem;
     border-bottom: 2px solid white;
-    padding: 5px 10px;
+    padding: 5px 8px;
+    margin: 0 10px;
     letter-spacing: 2px;
+    transition: all 0.5s;
+}
+.header__content ul a{
+    transition: all 0.5s;
+}
+.header__content ul li:hover a{
+    color: #00b7b9;
+}
+.header__content ul li:hover {
+    /* color: #00b7b9; */
+    /* border-color: #00b7b9; */
+    border-bottom: 2px solid #00b7b9;
+
 }
 .header__content a {
     text-decoration: none;
     color: white;
 }
-
 .header__content nav {
     width: 50%;
 }
-.header__content ul .active a {
+.header__content .active{
+    border-bottom: 2px solid #00b7b9;
+}
+.header__content .active a{
     color: #00b7b9;
 }
-.header__content ul .active {
-    border-bottom-color: #00b7b9;
-}
-/* .header__content ul li a:hover {
-    color: #00b7b9;
-    border-bottom-color: #00b7b9;
-} */
-/* .header__content nav ul li:hover {
-    color: #00b7b9;
-    border-bottom-color: #00b7b9;
-} */
 
-.header__content ul li a:active {
-    color: #00b7b9;
-}
 
 /* CAROUSEL  */
 
