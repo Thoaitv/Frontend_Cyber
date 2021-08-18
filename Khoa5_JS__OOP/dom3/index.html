@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM 3</title>
+</head>
+
+<body>
+    <div class="div">
+        <ul>
+            <li>ND 1</li>
+            <li>ND 2</li>
+            <li>ND 3</li>
+            <li class="testClass">ND 4 - class 1</li>
+        </ul>
+        <ul>
+            <li>x</li>
+            <li class="testClass">y - class 2</li>
+        </ul>
+    </div>
+    Click button to change content li 1
+    <br>
+    <button onclick="changeLi()">Change i 1</button>
+    <hr>
+    <div id="demoTagP">
+        <p>Nội dung 1</p>
+        <p>Nội dung 2</p>
+        <p class="testClass">Nội dung 3 -class 3</p>
+    </div>
+    <button onclick="changeTagP()">Change tag P - Class</button>
+
+    <hr>
+    <!-- getElementsByClassName -->
+    <button id="createEle">Tạo element</button>
+    <div id="divCre" style="width: 200px; height: 200px; background: orange;">
+    </div>
+
+    <script src="./dom3.js"></script>
+</body>
+
+</html>
